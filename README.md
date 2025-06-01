@@ -31,7 +31,7 @@ A real-time roadside assistance platform to connect **stranded users with mechan
 📌 A showcase of my featured projects, experience, and blog  
 ⚙️ Built with Next.js, TailwindCSS, Framer Motion  
 
-🔗 [Visit Portfolio]((https://harsh-portfolio-gray.vercel.app/))
+🔗 [Visit Portfolio](https://harsh-portfolio-gray.vercel.app/)
 
 ---
 
