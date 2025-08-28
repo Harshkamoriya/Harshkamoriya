@@ -1,8 +1,8 @@
 ## 👋 Hi there, I'm Harsh Kamoriya!
 
 🎓 Pre-Final-year ECE student | 💻 Full-Stack Developer | 🚀 Hackathon Enthusiast  
-⚒️ MERN | Next.js | Tailwind | Prisma | PostgreSQL | AWS | CI/CD  
-🧠 DSA Enthusiast (460+ LeetCode Qs | 2x 100-Days Badge)  
+⚒️ MERN | Next.js | Tailwind | Prisma | PostgreSQL | CI/CD  
+🧠 DSA Enthusiast (700+ LeetCode Qs | 2x 100-Days Badge)  
 📍 Building tools that bridge real-world problems with modern tech
 
 ---
@@ -63,7 +63,7 @@ A real-time roadside assistance platform to connect **stranded users with mechan
 - 🔗 [View my LeetCode profile](https://leetcode.com/Harshkamoriya/)
 
 <div align="center"> 
-  <img src="https://leetcard.jacoblin.cool/wdqotnq4U5?theme=dark&font=Ubuntu&ext=contest" alt="Harsh Kamoriya's LeetCode card" /> 
+<img src="https://leetcard.jacoblin.cool/wdqotnq4U5?theme=dark&font=Ubuntu&ext=contest" alt="Harsh Kamoriya's LeetCode card" />
 </div>
 
 ---
