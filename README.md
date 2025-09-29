@@ -1,4 +1,4 @@
-## 👋 Hi there, I'm Harsh Kamoriya!
+##  Hi there 👋 , I'm Harsh Kamoriya!
 
 🎓 Pre-Final-year ECE student | 💻 Full-Stack Developer | 🚀 Hackathon Enthusiast  
 ⚒️ MERN | Next.js | Tailwind | Prisma | PostgreSQL | CI/CD  
@@ -7,7 +7,28 @@
 
 ---
 
-## 🔭 Currently Working On
+## 💼 Experience (Currently working)
+
+### 🌱 Full-Stack Developer Intern — [Mintzy](https://mintzy.in/)  
+*(Feb 2025 – Present)*  
+At **Mintzy**, we build **data-driven intelligent systems** that bring **Ease, Awareness, and Transparency (E.A.T)** to financial decision-making for the Indian equity market.  
+- 🚀 Contributing to a platform that **predicts future stock prices** using proprietary **deep-learning and sentiment-aware models**.  
+- 🧩 Developing features for **personalized market forecasting**, **custom investment strategies**, and **integrated risk analytics**.  
+- ⚙️ Tech Stack: **Next.js, Node.js, Express, MongoDB, PostgreSQL, Prisma, TailwindCSS, AWS**.  
+- 💡 Working on **real-time data pipelines** and scalable APIs powering market intelligence for both retail investors and financial institutions.
+
+---
+
+## 🔭 Projects
+
+
+### 🤖 [AI-Powered Collaboration & Analysis Tool](https://git-buddy-69w18hzyp-raghvendra-singh-dhakars-projects.vercel.app)
+*T3 Stack (Next.js · tRPC · NextAuth · Prisma/Drizzle · Tailwind · Assembly AI)*  
+- 🔍 Analyze Git repos, summarize commits, and answer codebase questions via AI chatbot.  
+- 🎤 Transcribe & summarize meeting audio for actionable insights.  
+- 📂 Manage multiple projects and collaborate with teammates in real time.
+
+---
 
 ### 🎬 [ChalChitra](https://chalchitra.vercel.app)  
 A freelance platform (like Fiverr) **dedicated to video editing services**  
@@ -18,14 +39,15 @@ A freelance platform (like Fiverr) **dedicated to video editing services**
 
 ---
 
-### 🆘 [ResQ-Connect](https://resq-connect.vercel.app)  
-A real-time roadside assistance platform to connect **stranded users with mechanics/helpers**  
-🗺️ Booking system + Google Maps integration  
-⚙️ Tech Stack: MERN Stack + Google Maps API + Real-time Dashboard  
-
-🔗 [Live Demo](https://resq-connect.vercel.app) | [GitHub Repo](https://github.com/Harshkamoriya/resq-connect)
+### 🚀 [API Performance Analyzer](https://api-analyzer.vercel.app)
+*Next.js · Prisma · PostgreSQL · TypeScript · Gemini API*  
+- ⚙️ Built a tool to send **multiple test requests** and analyze **API speed and stability**.  
+- 🤖 **Auto-generates optimization tips** using the Gemini API for better performance.  
+- 🗄️ Uses **Prisma ORM** and **PostgreSQL** to store test logs and performance reports.  
+- 📊 Next.js frontend with **dynamic charts** and clean TypeScript codebase.
 
 ---
+
 
 ## 🌐 [My Portfolio](https://harshkamoriya.vercel.app)  
 📌 A showcase of my featured projects, experience, and blog  
