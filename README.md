@@ -1,9 +1,18 @@
-##  Hi there 👋 , I'm Harsh Kamoriya!
+<div align="center">
 
-🎓 Pre-Final-year ECE student | 💻 Full-Stack Developer | 🚀 Hackathon Enthusiast  
+## 👋 Hi there, I'm Harsh Kamoriya!
+
+🎓 Pre-Final-year ECE student&nbsp;|&nbsp;💻 Full-Stack Developer&nbsp;|&nbsp;🚀 Hackathon Enthusiast  
+ 
+
+</div>
+
+---
+
+## About Me
 ⚒️ MERN | Next.js | Tailwind | Prisma | PostgreSQL | CI/CD  
 🧠 DSA Enthusiast (700+ LeetCode Qs | 2x 100-Days Badge)  
-📍 Building tools that bridge real-world problems with modern tech
+📍 Building tools that bridge real-world problems with modern tech 
 
 ---
 
@@ -22,7 +31,7 @@ At **Mintzy**, we build **data-driven intelligent systems** that bring **Ease, A
 ## 🔭 Projects
 
 
-### 🤖 [AI-Powered Collaboration & Analysis Tool](https://git-buddy-69w18hzyp-raghvendra-singh-dhakars-projects.vercel.app)
+### 🤖 [GitSaathi](https://git-buddy-69w18hzyp-raghvendra-singh-dhakars-projects.vercel.app)
 *T3 Stack (Next.js · tRPC · NextAuth · Prisma/Drizzle · Tailwind · Assembly AI)*  
 - 🔍 Analyze Git repos, summarize commits, and answer codebase questions via AI chatbot.  
 - 🎤 Transcribe & summarize meeting audio for actionable insights.  
