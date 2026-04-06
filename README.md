@@ -51,8 +51,7 @@ At **Mintzy**, we build **data-driven intelligent systems** that bring **Ease, A
 
 ---
 
-### 🎬 [ChalChitra](https://chalchitra-frontend2.vercel.app
-)  
+### 🎬 [ChalChitra](https://chalchitra-frontend2.vercel.app)  
 A freelance platform (like Fiverr) **dedicated to video editing services**  
 📹 Video editors can list gigs & clients can buy services  
 ⚙️ Tech Stack: MongoDB, Next.js, Node.js, Express.js, TailwindCSS, Shadcn/UI  
