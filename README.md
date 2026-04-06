@@ -43,7 +43,7 @@ At **Mintzy**, we build **data-driven intelligent systems** that bring **Ease, A
 - 🚀 Built with a **scalable architecture** using Redis + BullMQ for background jobs and async processing.  
 
 
-### 🤖 [GitSaathi](git-saathi.vercel.app)
+### 🤖 [GitSaathi](https://git-saathi.vercel.app)
 *T3 Stack (Next.js· NextAuth · Prisma/Drizzle · Tailwind · Assembly AI)*  
 - 🔍 Analyze Git repos, summarize commits, and answer codebase questions via AI chatbot.  
 - 🎤 Transcribe & summarize meeting audio for actionable insights.  
