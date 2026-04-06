@@ -31,8 +31,20 @@ At **Mintzy**, we build **data-driven intelligent systems** that bring **Ease, A
 ## 🔭 Projects
 
 
-### 🤖 [GitSaathi](https://git-buddy-69w18hzyp-raghvendra-singh-dhakars-projects.vercel.app)
-*T3 Stack (Next.js · tRPC · NextAuth · Prisma/Drizzle · Tailwind · Assembly AI)*  
+### 🤖 [Intervu.ai](https://intervuai-beta.vercel.app)
+*(Next.js · Node.js · PostgreSQL · Prisma · Redis · RAG · WebRTC · AssemblyAI)*  
+
+- 🧠 Built an **AI-powered recruitment platform** that automates candidate screening using **context-aware AI interviews**.  
+- ⚡ Implemented **RAG pipeline (Pinecone + Gemini)** to generate **personalized interview questions** based on candidate resumes.  
+- 💻 Developed a **secure code execution system** using a sandboxed microservice (Docker-based) for real-time coding assessments.  
+- 🎤 Integrated **real-time audio interviews & transcription** using AssemblyAI with intelligent response evaluation.  
+- 🔍 Added **AI-based proctoring (MediaPipe)** to detect cheating via face tracking, tab switching, and anomalies.  
+- 📊 Designed a **multi-stage interview pipeline system** with scoring, analytics, and recruiter dashboards.  
+- 🚀 Built with a **scalable architecture** using Redis + BullMQ for background jobs and async processing.  
+
+
+### 🤖 [GitSaathi](git-saathi.vercel.app)
+*T3 Stack (Next.js· NextAuth · Prisma/Drizzle · Tailwind · Assembly AI)*  
 - 🔍 Analyze Git repos, summarize commits, and answer codebase questions via AI chatbot.  
 - 🎤 Transcribe & summarize meeting audio for actionable insights.  
 - 📂 Manage multiple projects and collaborate with teammates in real time.
