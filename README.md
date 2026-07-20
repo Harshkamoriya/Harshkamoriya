@@ -28,10 +28,10 @@ My primary interests lie in:
 I enjoy solving engineering problems where reliability, scalability, and maintainability matter more than flashy UI.
 
 ---
+
 ## Professional Experience
 
 ### Software Engineer Intern — Mintzy
-
 **Feb 2025 – Present**
 
 Working on production-grade backend systems powering intelligent financial platforms.
@@ -55,14 +55,12 @@ Key engineering contributions include:
 
 ## 🚀 Featured Engineering Projects
 
-
 ### Intervu AI
 **AI-powered Technical Interview Platform**
 
 > A production-oriented platform that automates technical interviews through AI-driven conversations, resume-aware question generation, secure coding assessments, and real-time proctoring.
 
 **Engineering Highlights**
-
 - Designed a modular backend architecture separating interview orchestration, AI services, coding execution, and background processing.
 - Built a resume-aware RAG pipeline using **Gemini + Pinecone** to generate personalized interview questions.
 - Developed a sandboxed Docker-based execution service for secure code compilation and testing.
@@ -70,13 +68,11 @@ Key engineering contributions include:
 - Integrated WebRTC and AssemblyAI for low-latency live interviews with transcription and evaluation.
 - Added AI-powered proctoring using MediaPipe to detect suspicious interview behavior.
 
-**Tech Stack**
+**Tech Stack:** Next.js • Node.js • PostgreSQL • Prisma • Redis • BullMQ • Docker • Pinecone • Gemini • AssemblyAI • WebRTC
 
-Next.js • Node.js • PostgreSQL • Prisma • Redis • BullMQ • Docker • Pinecone • Gemini • AssemblyAI • WebRTC
+**Focus Areas:** Distributed Systems • Background Processing • AI Infrastructure • Secure Execution • Backend Architecture
 
-**Focus Areas**
-
-Distributed Systems • Background Processing • AI Infrastructure • Secure Execution • Backend Architecture
+---
 
 ### GitSaathi
 **AI-powered Repository Intelligence Platform**
@@ -84,17 +80,13 @@ Distributed Systems • Background Processing • AI Infrastructure • Secure E
 > A developer productivity platform that helps engineers understand unfamiliar repositories through AI-assisted code analysis, commit summarization, and contextual conversations.
 
 **Engineering Highlights**
-
 - Built repository indexing pipelines to enable semantic codebase search.
 - Implemented AI-powered contextual chat over repositories using embeddings and retrieval.
 - Designed project-level isolation for managing multiple repositories securely.
 - Integrated AssemblyAI for meeting transcription and automated action-item extraction.
 - Optimized backend APIs for handling large repository metadata efficiently.
 
-**Tech Stack**
-
-Next.js • TypeScript • PostgreSQL • Prisma • NextAuth • AssemblyAI • Gemini
-
+**Tech Stack:** Next.js • TypeScript • PostgreSQL • Prisma • NextAuth • AssemblyAI • Gemini
 
 ---
 
@@ -104,12 +96,30 @@ Next.js • TypeScript • PostgreSQL • Prisma • NextAuth • AssemblyAI •
 > A full-stack marketplace connecting clients with professional video editors through secure service discovery, order management, and payment workflows.
 
 **Engineering Highlights**
-
 - Designed scalable REST APIs for gig management and order lifecycle.
 - Implemented role-based authentication and authorization.
 - Developed reusable backend architecture following modular service design.
 - Built responsive dashboards for creators and clients.
 - Integrated secure payment workflows and media management.
+
+**Tech Stack:** Next.js • Node.js • Express • MongoDB • TailwindCSS
+
+---
+
+### API Performance Analyzer
+**Developer Tool for API Benchmarking**
+
+> A platform that benchmarks APIs under configurable workloads and uses AI to recommend performance improvements based on response metrics.
+
+**Engineering Highlights**
+- Designed concurrent request execution for realistic performance testing.
+- Built analytics dashboards for latency, throughput, and response trends.
+- Integrated Gemini AI to generate optimization suggestions from collected metrics.
+- Persisted historical benchmark reports using PostgreSQL and Prisma.
+
+**Tech Stack:** Next.js • TypeScript • PostgreSQL • Prisma • Gemini API
+
+---
 
 ## 📖 Engineering Principles
 
@@ -121,26 +131,6 @@ A few ideas that guide how I build software:
 - Prefer simple, reliable architectures over clever ones.
 - Automate repetitive workflows whenever possible.
 
-
-**Tech Stack**
-
-Next.js • Node.js • Express • MongoDB • TailwindCSS
----
-### API Performance Analyzer
-**Developer Tool for API Benchmarking**
-
-> A platform that benchmarks APIs under configurable workloads and uses AI to recommend performance improvements based on response metrics.
-
-**Engineering Highlights**
-
-- Designed concurrent request execution for realistic performance testing.
-- Built analytics dashboards for latency, throughput, and response trends.
-- Integrated Gemini AI to generate optimization suggestions from collected metrics.
-- Persisted historical benchmark reports using PostgreSQL and Prisma.
-
-**Tech Stack**
-
-Next.js • TypeScript • PostgreSQL • Prisma • Gemini API
 ---
 
 ## 🌐 Portfolio
@@ -148,6 +138,7 @@ Next.js • TypeScript • PostgreSQL • Prisma • Gemini API
 Explore my engineering projects, technical experience, architecture decisions, and writing.
 
 🔗 https://harshkamoriya.vercel.app
+
 ---
 
 ## 🚀 Current Engineering Interests
@@ -161,6 +152,7 @@ Currently exploring deeper concepts around:
 - Observability & Monitoring
 - Caching Strategies
 - Event-Driven Architectures
+
 ---
 
 ## 🎯 Interested In
@@ -176,7 +168,6 @@ I'm particularly interested in engineering problems involving:
 
 ---
 
-
 ## ✍️ Engineering Notes
 
 I enjoy documenting architecture decisions and implementation details.
@@ -189,7 +180,8 @@ Coming soon:
 - Building RAG Pipelines
 - Background Job Processing with BullMQ
 
-- 
+---
+
 ## 🧠 Competitive Programming
 
 - 1000+ DSA problems solved across platforms
@@ -197,11 +189,9 @@ Coming soon:
 - Strong foundation in Data Structures & Algorithms
 - Highest Rating: 1947
 
+🔗 [View my LeetCode profile](https://leetcode.com/u/Harsh-32/)
 
-  
-- 🔗 [View my LeetCode profile]([[https://leetcode.com/Harshkamoriya/](https://leetcode.com/u/Harsh-32/)](https://leetcode.com/u/Harsh-32/))
-
-<div align="center"> 
+<div align="center">
 <img src="https://leetcard.jacoblin.cool/wdqotnq4U5?theme=dark&font=Ubuntu&ext=contest" alt="Harsh Kamoriya's LeetCode card" />
 </div>
 
@@ -219,33 +209,20 @@ Coming soon:
 
 ---
 
-
----
 ## ⚙️ Engineering Toolkit
 
-### Languages
+**Languages:** C++ • JavaScript • TypeScript • Python
 
-C++ • JavaScript • TypeScript • Python
+**Backend:** Node.js • Express • FastAPI
 
-### Backend
+**Databases:** PostgreSQL • MongoDB • Redis
 
-Node.js • Express • FastAPI
+**Cloud & Infrastructure:** AWS • Docker • GitHub Actions
 
-### Databases
+**AI:** Gemini • Pinecone • AssemblyAI
 
-PostgreSQL • MongoDB • Redis
+**Frontend:** React • Next.js
 
-### Cloud & Infrastructure
-
-AWS • Docker • GitHub Actions
-
-### AI
-
-Gemini • Pinecone • AssemblyAI
-
-### Frontend
-
-React • Next.js
 ---
 
 ## 📈 GitHub Stats
@@ -254,8 +231,6 @@ React • Next.js
   <img src="https://github-readme-stats.vercel.app/api?username=Harshkamoriya&show_icons=true&theme=radical&count_private=true" height="170">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshkamoriya&layout=compact&theme=radical" height="170">
 </p>
-
-
 
 ---
 
@@ -268,9 +243,9 @@ React • Next.js
   <a href="https://github.com/Harshkamoriya"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github&logoColor=white"/></a>
 </p>
 
-
+---
 
 ## ⚡ Fun Fact
 
-> I once smashed **52 runs in 23 balls** in a department cricket match, but we still lost...  
+> I once smashed **52 runs in 23 balls** in a department cricket match, but we still lost...
 > Now I just smash bugs and push to GitHub 😄
