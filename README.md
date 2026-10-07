@@ -1,251 +1,62 @@
-<div align="center">
-
 # Harsh Kamoriya
 
-### Software Engineer
+Backend engineer · Final-year ECE, NIT Surat (2027)
+Production trading systems, concurrency, and low-latency APIs.
 
-**Building scalable backend systems, distributed services, and cloud-native applications.**
-
-Final Year @ NIT Surat (SVNIT) • Software Engineer Intern @ Mintzy
-
-</div>
+[LinkedIn](https://linkedin.com/in/harshkamoriya) · [Portfolio](https://harshkamoriya.vercel.app) · [LeetCode](LEETCODE_URL) · your-email@example.com
 
 ---
 
-## Engineering Focus
+## Experience
 
-Over the past two years, I've evolved from building full-stack applications to engineering production backend systems.
+**Software Engineer Intern, Mintzy** (fintech / algorithmic trading) · START_DATE – Present
+Own production backends that execute real trades for live users. Reporting directly to the CTO and founders.
 
-My primary interests lie in:
+**Auto-trader engine (FastAPI, Redis, Gunicorn)**
+- Built the engine that fetches ML predictions, applies entry/exit logic, and places broker orders for users during market hours. Trader workers run as separate processes from the API, coordinated through Redis (session metadata, heartbeats, stop jobs, exit queues).
+- Debugged and fixed multi-worker session-state bugs, deadlocks, and race conditions found under live market load.
+- Added per-symbol exposure and leverage caps, per-ticker loss-threshold exits on live ticks, and a session-scoped EOD square-off that exits only engine-owned quantity, so manual holdings on shared broker accounts are never touched.
+- Ported the same core engine to 4 brokers (Angel One, Bear Street, Trader-Hut, Tradex), isolating broker-specific logic from shared trading logic.
 
-- Designing scalable backend architectures
-- Distributed systems and asynchronous processing
-- Performance optimization and low-latency APIs
-- Cloud infrastructure and deployments
-- Database design and caching strategies
-- AI-powered developer tools
+**API gateway (Node.js, Express, MongoDB)**
+- Gateway routing desktop-app trading requests to per-broker plugin servers, with JWT auth, session lifecycle APIs (start / stop / force-stop), IST-based schedulers for simulation-to-live handoff, and PnL / trade-log APIs.
 
-I enjoy solving engineering problems where reliability, scalability, and maintainability matter more than flashy UI.
+**Performance**
+- Prediction service latency: ~10s → ~3s by isolating and fixing a bottleneck on the request path.
+- Backtesting engine: ~1 hr → ~30 min via horizontal scaling.
 
----
+**Backend and infra**
+- Rearchitected a messy Node.js monolith into routes / controllers / services / middlewares, with centralized error handling, auth, rate limiting, logging, config management, and a role-based admin portal.
+- Migrated authentication from Clerk to custom OAuth, removing per-user registration limits.
+- Docker, Nginx, PM2, and GitHub Actions CI/CD to EC2 across services.
 
-## Professional Experience
-
-### Software Engineer Intern — Mintzy
-**Feb 2025 – Present**
-
-Working on production-grade backend systems powering intelligent financial platforms.
-
-Key engineering contributions include:
-
-- Designed and restructured backend modules to improve maintainability and scalability.
-- Built secure REST APIs with validation, sanitization, structured logging, and centralized error handling.
-- Debugged and resolved production issues affecting live users during market hours.
-- Reduced backend inference latency by nearly **50%** through query optimization and request flow improvements.
-- Implemented Redis-based synchronization mechanisms for concurrent workloads.
-- Developed API Gateway architecture integrating multiple broker services.
-- Worked with Gunicorn multi-worker deployments for high-throughput applications.
-- Contributed to infrastructure migration from GCP to AWS.
-- Deployed and managed services across AWS, Azure, and GCP environments.
-- Participated in designing horizontally scalable backend services and distributed processing systems.
-
-**Tech:** FastAPI • Node.js • Express • PostgreSQL • MongoDB • Redis • AWS • Azure • GCP • Docker
+Stack: Python, FastAPI, Node.js, Express, Redis, MongoDB, Docker, AWS, Azure, GitHub Actions
 
 ---
 
-## 🚀 Featured Engineering Projects
+## Projects
 
-### Intervu AI
-**AI-powered Technical Interview Platform**
+### [Intervu AI](https://github.com/Harshkamoriya/REPO)
+AI technical interview platform: resume-aware questions, sandboxed code execution, live proctoring.
+- Resume-aware RAG pipeline (Gemini + Pinecone) generating personalized questions
+- Docker-sandboxed service for compiling and testing candidate code
+- Async interview workflows on Redis + BullMQ
+- Live interviews over WebRTC with AssemblyAI transcription; MediaPipe-based proctoring
 
-> A production-oriented platform that automates technical interviews through AI-driven conversations, resume-aware question generation, secure coding assessments, and real-time proctoring.
+`Next.js · Node.js · PostgreSQL · Prisma · Redis · BullMQ · Docker`
 
-**Engineering Highlights**
-- Designed a modular backend architecture separating interview orchestration, AI services, coding execution, and background processing.
-- Built a resume-aware RAG pipeline using **Gemini + Pinecone** to generate personalized interview questions.
-- Developed a sandboxed Docker-based execution service for secure code compilation and testing.
-- Implemented asynchronous interview workflows using **Redis + BullMQ**, enabling scalable background processing.
-- Integrated WebRTC and AssemblyAI for low-latency live interviews with transcription and evaluation.
-- Added AI-powered proctoring using MediaPipe to detect suspicious interview behavior.
-
-**Tech Stack:** Next.js • Node.js • PostgreSQL • Prisma • Redis • BullMQ • Docker • Pinecone • Gemini • AssemblyAI • WebRTC
-
-**Focus Areas:** Distributed Systems • Background Processing • AI Infrastructure • Secure Execution • Backend Architecture
+### Other work
+- [GitSaathi](https://github.com/Harshkamoriya/REPO): chat and semantic search over a repository using embeddings and retrieval
+- [ChalChitra](https://github.com/Harshkamoriya/REPO): freelance marketplace with role-based auth and order lifecycle
+- [API Performance Analyzer](https://github.com/Harshkamoriya/REPO): concurrent API benchmarking with latency and throughput reports
 
 ---
 
-### GitSaathi
-**AI-powered Repository Intelligence Platform**
+## Skills
+**Languages:** Python, C++, JavaScript, TypeScript
+**Backend:** FastAPI, Node.js / Express, REST, WebSockets
+**Data:** Redis, MongoDB, PostgreSQL
+**Infra:** AWS, Azure, Docker, Nginx, GitHub Actions
 
-> A developer productivity platform that helps engineers understand unfamiliar repositories through AI-assisted code analysis, commit summarization, and contextual conversations.
-
-**Engineering Highlights**
-- Built repository indexing pipelines to enable semantic codebase search.
-- Implemented AI-powered contextual chat over repositories using embeddings and retrieval.
-- Designed project-level isolation for managing multiple repositories securely.
-- Integrated AssemblyAI for meeting transcription and automated action-item extraction.
-- Optimized backend APIs for handling large repository metadata efficiently.
-
-**Tech Stack:** Next.js • TypeScript • PostgreSQL • Prisma • NextAuth • AssemblyAI • Gemini
-
----
-
-### ChalChitra
-**Marketplace Platform for Creative Services**
-
-> A full-stack marketplace connecting clients with professional video editors through secure service discovery, order management, and payment workflows.
-
-**Engineering Highlights**
-- Designed scalable REST APIs for gig management and order lifecycle.
-- Implemented role-based authentication and authorization.
-- Developed reusable backend architecture following modular service design.
-- Built responsive dashboards for creators and clients.
-- Integrated secure payment workflows and media management.
-
-**Tech Stack:** Next.js • Node.js • Express • MongoDB • TailwindCSS
-
----
-
-### API Performance Analyzer
-**Developer Tool for API Benchmarking**
-
-> A platform that benchmarks APIs under configurable workloads and uses AI to recommend performance improvements based on response metrics.
-
-**Engineering Highlights**
-- Designed concurrent request execution for realistic performance testing.
-- Built analytics dashboards for latency, throughput, and response trends.
-- Integrated Gemini AI to generate optimization suggestions from collected metrics.
-- Persisted historical benchmark reports using PostgreSQL and Prisma.
-
-**Tech Stack:** Next.js • TypeScript • PostgreSQL • Prisma • Gemini API
-
----
-
-## 📖 Engineering Principles
-
-A few ideas that guide how I build software:
-
-- Design for maintainability before complexity.
-- Measure performance before optimizing.
-- Keep systems observable and debuggable.
-- Prefer simple, reliable architectures over clever ones.
-- Automate repetitive workflows whenever possible.
-
----
-
-## 🌐 Portfolio
-
-Explore my engineering projects, technical experience, architecture decisions, and writing.
-
-🔗 https://harshkamoriya.vercel.app
-
----
-
-## 🚀 Current Engineering Interests
-
-Currently exploring deeper concepts around:
-
-- Distributed Systems
-- System Design
-- Database Internals
-- High Availability & Fault Tolerance
-- Observability & Monitoring
-- Caching Strategies
-- Event-Driven Architectures
-
----
-
-## 🎯 Interested In
-
-I'm particularly interested in engineering problems involving:
-
-- High-performance backend systems
-- Distributed architectures
-- Developer tooling
-- Infrastructure automation
-- AI-powered developer platforms
-- Large-scale API design
-
----
-
-## ✍️ Engineering Notes
-
-I enjoy documenting architecture decisions and implementation details.
-
-Coming soon:
-
-- Designing an API Gateway
-- Redis Synchronization Patterns
-- Scaling FastAPI with Gunicorn
-- Building RAG Pipelines
-- Background Job Processing with BullMQ
-
----
-
-## 🧠 Competitive Programming
-
-- 1000+ DSA problems solved across platforms
-- Active LeetCode Contest Participant
-- Strong foundation in Data Structures & Algorithms
-- Highest Rating: 1947
-
-🔗 [View my LeetCode profile](https://leetcode.com/u/Harsh-32/)
-
-<div align="center">
-<img src="https://leetcard.jacoblin.cool/wdqotnq4U5?theme=dark&font=Ubuntu&ext=contest" alt="Harsh Kamoriya's LeetCode card" />
-</div>
-
----
-
-## 💬 Happy to Discuss
-
-- Backend Architecture
-- Distributed Systems
-- API Design
-- Database Design
-- Performance Optimization
-- Production Debugging
-- System Design
-
----
-
-## ⚙️ Engineering Toolkit
-
-**Languages:** C++ • JavaScript • TypeScript • Python
-
-**Backend:** Node.js • Express • FastAPI
-
-**Databases:** PostgreSQL • MongoDB • Redis
-
-**Cloud & Infrastructure:** AWS • Docker • GitHub Actions
-
-**AI:** Gemini • Pinecone • AssemblyAI
-
-**Frontend:** React • Next.js
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Harshkamoriya&show_icons=true&theme=radical&count_private=true" height="170">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshkamoriya&layout=compact&theme=radical" height="170">
-</p>
-
----
-
-## 📫 Let's Connect
-
-<p align="left">
-  <a href="mailto:harshkamoriya.dev@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/></a>
-  <a href="https://linkedin.com/in/harshkamoriya"><img src="https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white"/></a>
-  <a href="https://leetcode.com/Harshkamoriya"><img src="https://img.shields.io/badge/LeetCode-orange?style=flat-square&logo=Leetcode&logoColor=white"/></a>
-  <a href="https://github.com/Harshkamoriya"><img src="https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github&logoColor=white"/></a>
-</p>
-
----
-
-## ⚡ Fun Fact
-
-> I once smashed **52 runs in 23 balls** in a department cricket match, but we still lost...
-> Now I just smash bugs and push to GitHub 😄
+## Problem solving
+LeetCode Knight, peak rating 1947, 1000+ problems solved.
