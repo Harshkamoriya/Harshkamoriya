@@ -143,6 +143,28 @@ Sardar Vallabhbhai National Institute of Technology (NIT Surat) · 2023 – 2027
 
 ---
 
+## 📌 Pinned Repositories
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME/IntervuAI">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=IntervuAI&hide_border=true"/>
+  </a>
+  <a href="https://github.com/YOUR_USERNAME/GitSaathi">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=GitSaathi&hide_border=true"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/YOUR_USERNAME/REPO_3">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=REPO_3&hide_border=true"/>
+  </a>
+  <a href="https://github.com/YOUR_USERNAME/REPO_4">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=REPO_4&hide_border=true"/>
+  </a>
+</p>
+
+----
+
 ## 🤝 Let's Connect
 
 I'm actively looking for **Software Engineering Internship** opportunities.
