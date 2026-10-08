@@ -1,62 +1,151 @@
-# Harsh Kamoriya
+<h1 align="center">Hi 👋, I'm Harsh Kamoriya</h1>
+<h3 align="center">Full Stack & Backend Engineer · Final-year ECE @ NIT Surat</h3>
 
-Backend engineer · Final-year ECE, NIT Surat (2027)
-Production trading systems, concurrency, and low-latency APIs.
+<p align="center">
+  Building scalable backends and full stack products. Open to <b>Software Engineering Internships</b>.
+</p>
 
-[LinkedIn](https://linkedin.com/in/harshkamoriya) · [Portfolio](https://harshkamoriya.vercel.app) · [LeetCode](LEETCODE_URL) · your-email@example.com
-
----
-
-## Experience
-
-**Software Engineer Intern, Mintzy** (fintech / algorithmic trading) · START_DATE – Present
-Own production backends that execute real trades for live users. Reporting directly to the CTO and founders.
-
-**Auto-trader engine (FastAPI, Redis, Gunicorn)**
-- Built the engine that fetches ML predictions, applies entry/exit logic, and places broker orders for users during market hours. Trader workers run as separate processes from the API, coordinated through Redis (session metadata, heartbeats, stop jobs, exit queues).
-- Debugged and fixed multi-worker session-state bugs, deadlocks, and race conditions found under live market load.
-- Added per-symbol exposure and leverage caps, per-ticker loss-threshold exits on live ticks, and a session-scoped EOD square-off that exits only engine-owned quantity, so manual holdings on shared broker accounts are never touched.
-- Ported the same core engine to 4 brokers (Angel One, Bear Street, Trader-Hut, Tradex), isolating broker-specific logic from shared trading logic.
-
-**API gateway (Node.js, Express, MongoDB)**
-- Gateway routing desktop-app trading requests to per-broker plugin servers, with JWT auth, session lifecycle APIs (start / stop / force-stop), IST-based schedulers for simulation-to-live handoff, and PnL / trade-log APIs.
-
-**Performance**
-- Prediction service latency: ~10s → ~3s by isolating and fixing a bottleneck on the request path.
-- Backtesting engine: ~1 hr → ~30 min via horizontal scaling.
-
-**Backend and infra**
-- Rearchitected a messy Node.js monolith into routes / controllers / services / middlewares, with centralized error handling, auth, rate limiting, logging, config management, and a role-based admin portal.
-- Migrated authentication from Clerk to custom OAuth, removing per-user registration limits.
-- Docker, Nginx, PM2, and GitHub Actions CI/CD to EC2 across services.
-
-Stack: Python, FastAPI, Node.js, Express, Redis, MongoDB, Docker, AWS, Azure, GitHub Actions
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+  <a href="YOUR_RESUME_URL"><img src="https://img.shields.io/badge/Resume-2ea44f?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
+  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+</p>
 
 ---
 
-## Projects
+## 🧑‍💻 About Me
 
-### [Intervu AI](https://github.com/Harshkamoriya/REPO)
-AI technical interview platform: resume-aware questions, sandboxed code execution, live proctoring.
-- Resume-aware RAG pipeline (Gemini + Pinecone) generating personalized questions
-- Docker-sandboxed service for compiling and testing candidate code
-- Async interview workflows on Redis + BullMQ
-- Live interviews over WebRTC with AssemblyAI transcription; MediaPipe-based proctoring
-
-`Next.js · Node.js · PostgreSQL · Prisma · Redis · BullMQ · Docker`
-
-### Other work
-- [GitSaathi](https://github.com/Harshkamoriya/REPO): chat and semantic search over a repository using embeddings and retrieval
-- [ChalChitra](https://github.com/Harshkamoriya/REPO): freelance marketplace with role-based auth and order lifecycle
-- [API Performance Analyzer](https://github.com/Harshkamoriya/REPO): concurrent API benchmarking with latency and throughput reports
+- 🎓 B.Tech in Electronics & Communication Engineering at **NIT Surat** (2023 – 2027)
+- 💼 Worked as **Software Development Engineer Intern (Acting Tech Lead)** at **Mintzy.in**, building Python/FastAPI microservices on AWS
+- 🛠️ I work across the stack: frontend, backend, databases, cloud deployments and production debugging
+- 🧠 Solved problems on LeetCode, peaking at a **1947 rating (Knight badge)**
+- 🚀 Currently building **IntervuAI** and **GitSaathi**, and sharpening DSA and system design
+- 🎯 Looking for **SWE Internship** roles where I can ship real features and learn from strong teams
 
 ---
 
-## Skills
-**Languages:** Python, C++, JavaScript, TypeScript
-**Backend:** FastAPI, Node.js / Express, REST, WebSockets
-**Data:** Redis, MongoDB, PostgreSQL
-**Infra:** AWS, Azure, Docker, Nginx, GitHub Actions
+## 🧰 Tech Stack
 
-## Problem solving
-LeetCode Knight, peak rating 1947, 1000+ problems solved.
+**Languages**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+
+**Frontend**
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
+
+**Databases**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+**Cloud & DevOps**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/CI/CD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+## 💼 Experience
+
+### Software Development Engineer Intern (Acting Tech Lead) · Mintzy.in
+*Aug 2025 – YOUR_END_MONTH*
+
+- Designed and built **FastAPI microservices** deployed on **AWS**
+- Led backend development as **acting tech lead**: task planning, code reviews, architecture decisions
+- Debugged and fixed **production issues** to improve stability
+- ADD_IMPACT_BULLET (example: "Reduced API response time by X%")
+- ADD_IMPACT_BULLET (example: "Shipped X features used by Y users")
+
+**Tech:** Python · FastAPI · Microservices · AWS · PostgreSQL
+
+---
+
+## 🚀 Featured Projects
+
+### 🎙️ IntervuAI
+> ONE LINE: what it does and who it is for.
+
+| | |
+|---|---|
+| **Problem** | What problem does it solve? |
+| **Solution** | How does it work? Key features. |
+| **Stack** | Next.js · FastAPI · PostgreSQL · ... |
+| **Highlights** | Real-time feature, auth, scalability, any numbers |
+| **Links** | [Live Demo](LINK) · [Code](LINK) |
+
+### 🔧 GitSaathi
+> ONE LINE: what it does and who it is for.
+
+| | |
+|---|---|
+| **Problem** | What problem does it solve? |
+| **Solution** | How does it work? Key features. |
+| **Stack** | ... |
+| **Highlights** | ... |
+| **Links** | [Live Demo](LINK) · [Code](LINK) |
+
+### 🚇 Kochi Metro Rail Automation Prototype · Smart India Hackathon 2025
+> Led a 6-member team to build an automation prototype for Kochi Metro Rail.
+
+| | |
+|---|---|
+| **Role** | Team Leader |
+| **What we built** | Short description of the solution |
+| **Stack** | ... |
+| **Links** | [Code](LINK) |
+
+---
+
+## 🏆 Achievements
+
+- 🥇 LeetCode max rating **1947**, **Knight** badge
+- 🚇 Team leader of a 6-member team at **Smart India Hackathon 2025**
+- 🧑‍🤝‍🧑 **Branch Councillor** of my department for one year
+- 🏏 Captain of the department **cricket team** (2 years) and **tug of war team**
+
+---
+
+## 🎓 Education
+
+**B.Tech, Electronics & Communication Engineering**
+Sardar Vallabhbhai National Institute of Technology (NIT Surat) · 2023 – 2027 · CGPA 7.89
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&count_private=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true"/>
+</p>
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=light&ext=heatmap"/>
+</p>
+
+---
+
+## 🤝 Let's Connect
+
+I'm actively looking for **Software Engineering Internship** opportunities.
+Feel free to reach out for roles, collaborations or just to talk tech.
+
+📫 **Email:** YOUR_EMAIL · 💬 **LinkedIn:** YOUR_LINKEDIN_URL
