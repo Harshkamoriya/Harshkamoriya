@@ -1,8 +1,8 @@
 <h1 align="center">Harsh Kamoriya</h1>
-<p align="center">Full Stack & Backend Engineer · Final-year ECE, NIT Surat</p>
+<p align="center">Full Stack & Backend Engineer .</p>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/harsh-kamoriya/">LinkedIn</a> &nbsp;·&nbsp;
   <a href="mailto:harshkamoriya@gmail.com">Email</a> &nbsp;·&nbsp;
   <a href="https://leetcode.com/u/Harsh-32/">LeetCode</a>
 </p>
@@ -11,7 +11,7 @@
 
 ### About
 
-I build backend systems and full stack products. I spent a year as an SDE Intern (Acting Tech Lead) at Mintzy.in, working on Python/FastAPI microservices, AWS deployments and production debugging. I'm currently on a freelance product build, and looking for Software Engineering Internships for 2027.
+I build backend systems and full stack products. I spent a year as an SDE Intern at Mintzy.in, working on Python/FastAPI microservices, AWS deployments and production debugging. I'm currently on a freelance product build, and looking for Software Engineering Internships for 2027.
 
 ---
 
@@ -89,4 +89,4 @@ NIT Surat · 2023 – 2027 · CGPA 7.89
 ### Contact
 
 Open to Software Engineering Internship opportunities.
-[harshkamoriya@gmail.com](mailto:harshkamoriya@gmail.com) · [LinkedIn](YOUR_LINKEDIN_URL)
+[harshkamoriya@gmail.com](mailto:harshkamoriya@gmail.com) · [LinkedIn](https://www.linkedin.com/in/harsh-kamoriya/)
