@@ -7,10 +7,8 @@
 
 <p align="center">
   <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-  <a href="YOUR_RESUME_URL"><img src="https://img.shields.io/badge/Resume-2ea44f?style=for-the-badge&logo=googledrive&logoColor=white"/></a>
-  <a href="https://leetcode.com/YOUR_LEETCODE_USERNAME"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+  <a href="mailto:harshkamoriya@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://leetcode.com/u/Harsh-32/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
 </p>
 
 ---
@@ -21,7 +19,7 @@
 - 💼 Worked as **Software Development Engineer Intern (Acting Tech Lead)** at **Mintzy.in**, building Python/FastAPI microservices on AWS
 - 🛠️ I work across the stack: frontend, backend, databases, cloud deployments and production debugging
 - 🧠 Solved problems on LeetCode, peaking at a **1947 rating (Knight badge)**
-- 🚀 Currently building **IntervuAI** and **GitSaathi**, and sharpening DSA and system design
+- 🤝 Currently working on a **freelance product build** and sharpening DSA and system design
 - 🎯 Looking for **SWE Internship** roles where I can ship real features and learn from strong teams
 
 ---
@@ -78,46 +76,40 @@
 
 ---
 
-## 🚀 Featured Projects
+## 🧾 Freelance Work
 
-### 🎙️ IntervuAI
-> ONE LINE: what it does and who it is for.
+### [Stayly](https://github.com/Harshkamoriya/stayly) · Hostel & PG Rental Platform
+*In development · Client engagement*
 
-| | |
-|---|---|
-| **Problem** | What problem does it solve? |
-| **Solution** | How does it work? Key features. |
-| **Stack** | Next.js · FastAPI · PostgreSQL · ... |
-| **Highlights** | Real-time feature, auth, scalability, any numbers |
-| **Links** | [Live Demo](LINK) · [Code](LINK) |
+Full stack development of a hostel and PG discovery platform, from design system to production deployment.
 
-### 🔧 GitSaathi
-> ONE LINE: what it does and who it is for.
+**Tech:** Next.js · TypeScript · Tailwind CSS · PostgreSQL
 
-| | |
-|---|---|
-| **Problem** | What problem does it solve? |
-| **Solution** | How does it work? Key features. |
-| **Stack** | ... |
-| **Highlights** | ... |
-| **Links** | [Live Demo](LINK) · [Code](LINK) |
+---
 
-### 🚇 Kochi Metro Rail Automation Prototype · Smart India Hackathon 2025
-> Led a 6-member team to build an automation prototype for Kochi Metro Rail.
+## 🚀 Projects
 
-| | |
-|---|---|
-| **Role** | Team Leader |
-| **What we built** | Short description of the solution |
-| **Stack** | ... |
-| **Links** | [Code](LINK) |
+### [IntervuAI](https://github.com/Harshkamoriya/verviq)
+Real-time interview platform with a sandboxed, multi-language code execution service.
+
+**Tech:** Next.js · TypeScript · Node.js · PostgreSQL · Prisma · WebSockets · Docker
+
+### [GitSaathi](https://github.com/Harshkamoriya/Git_saathi)
+Helps developers understand unfamiliar GitHub codebases quickly.
+
+**Tech:** T3 Stack · LLM APIs · AssemblyAI
+
+### [AeroGuide](https://github.com/Harshkamoriya/Aeroguide)
+AI-powered airport companion with real-time communication.
+
+**Tech:** FastAPI · WebSockets · SQLite · Twilio
 
 ---
 
 ## 🏆 Achievements
 
 - 🥇 LeetCode max rating **1947**, **Knight** badge
-- 🚇 Team leader of a 6-member team at **Smart India Hackathon 2025**
+- 🚇 Team leader of a 6-member team at **Smart India Hackathon 2025** (automation prototype for Kochi Metro Rail)
 - 🧑‍🤝‍🧑 **Branch Councillor** of my department for one year
 - 🏏 Captain of the department **cricket team** (2 years) and **tug of war team**
 
@@ -133,12 +125,8 @@ Sardar Vallabhbhai National Institute of Technology (NIT Surat) · 2023 – 2027
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&count_private=true"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/YOUR_LEETCODE_USERNAME?theme=light&ext=heatmap"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Harshkamoriya&show_icons=true&hide_border=true&count_private=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Harshkamoriya&layout=compact&hide_border=true"/>
 </p>
 
 ---
@@ -148,4 +136,4 @@ Sardar Vallabhbhai National Institute of Technology (NIT Surat) · 2023 – 2027
 I'm actively looking for **Software Engineering Internship** opportunities.
 Feel free to reach out for roles, collaborations or just to talk tech.
 
-📫 **Email:** YOUR_EMAIL · 💬 **LinkedIn:** YOUR_LINKEDIN_URL
+📫 **Email:** harshkamoriya@gmail.com · 💬 **LinkedIn:** YOUR_LINKEDIN_URL
