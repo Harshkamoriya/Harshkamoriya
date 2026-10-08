@@ -66,11 +66,14 @@
 ### Software Development Engineer Intern (Acting Tech Lead) · Mintzy.in
 *Aug 2025 – YOUR_END_MONTH*
 
-- Designed and built **FastAPI microservices** deployed on **AWS**
-- Led backend development as **acting tech lead**: task planning, code reviews, architecture decisions
-- Debugged and fixed **production issues** to improve stability
-- ADD_IMPACT_BULLET (example: "Reduced API response time by X%")
-- ADD_IMPACT_BULLET (example: "Shipped X features used by Y users")
+- Built and maintained a FastAPI auto-trading engine that runs live and simulated trading sessions through broker APIs, with trader workers on separate processes coordinated via Redis
+- Diagnosed and fixed multi-worker session management bugs, race conditions and deadlocks in a live market environment
+- Implemented risk controls: exposure and leverage caps, per-ticker loss exits on live ticks, and session-scoped end-of-day square-off that exits only engine-owned positions
+- Extended the core engine to multiple brokers (Angel One, Bear Street, TradeHut, Tradex) by isolating broker-specific logic from the shared engine
+- Built a Node.js API gateway that routes trading requests to broker plugin servers, with JWT auth, session lifecycle APIs, scheduled simulation-to-live handoff and PnL / trade-log APIs
+- Reduced ML prediction latency from 10s to 3s (~70%) by identifying and removing a bottleneck, and cut backtesting time from ~1 hour to ~30 minutes using horizontal scaling
+- Re-architected an unstructured Node.js backend into layered services with centralized error handling, auth, rate limiting, logging and a role-based admin portal; deployed on EC2 with Nginx, PM2 and GitHub Actions CI/CD
+
 
 **Tech:** Python · FastAPI · Microservices · AWS · PostgreSQL
 
