@@ -16,7 +16,7 @@
 ## 🧑‍💻 About Me
 
 - 🎓 B.Tech in Electronics & Communication Engineering at **NIT Surat** (2023 – 2027)
-- 💼 Worked as **Software Development Engineer Intern (Acting Tech Lead)** at **Mintzy.in**, building Python/FastAPI microservices on AWS
+- 💼 Worked as **Software Development Engineer Intern ** at **Mintzy.in**, building Python/FastAPI microservices on AWS
 - 🛠️ I work across the stack: frontend, backend, databases, cloud deployments and production debugging
 - 🧠 Solved problems on LeetCode, peaking at a **1947 rating (Knight badge)**
 - 🤝 Currently working on a **freelance product build** and sharpening DSA and system design
