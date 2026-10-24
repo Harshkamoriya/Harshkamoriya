@@ -2,7 +2,7 @@
 <h3 align="center">Full Stack & Backend Engineer ·</h3>
 
 <p align="center">
-  Building scalable backends and full stack products. Open to <b>Software Engineering Internships</b>.
+  Building scalable backends and full stack products. 
 </p>
 
 <p align="center">
@@ -63,8 +63,8 @@
 
 ## 💼 Experience
 
-### Software Development Engineer Intern (Acting Tech Lead) · Mintzy.in
-*Aug 2025 – YOUR_END_MONTH*
+### Software Development Engineer Intern | Mintzy.in
+*Aug 2025 – october september 2026*
 
 - Built and maintained a FastAPI auto-trading engine that runs live and simulated trading sessions through broker APIs, with trader workers on separate processes coordinated via Redis
 - Diagnosed and fixed multi-worker session management bugs, race conditions and deadlocks in a live market environment
